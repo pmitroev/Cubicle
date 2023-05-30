@@ -7,7 +7,7 @@ router.get('/create', (req, res) => {
 router.post('/create', (req, res) => {
     console.log(req.body);
 
-    res.redirect('/');
+    res.redirect('/'); 
 });
 
-module.exports = router;
+module.exports = router; 
